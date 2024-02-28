@@ -14,20 +14,27 @@
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 section{
     border: dashed var(--white);
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
 h1 {
     color: var(--orange);
     text-align:center;
+    font-family: "Palatino", "URW Palladio L", serif;
 }
 
 h2 {
     color: var(--orange);
-    text-align:center;
+    border: solid var(--white);
+
+    display: inline-flex;
 }
 
 h3 {
@@ -35,3 +42,11 @@ h3 {
     text-align:center;
 }
 
+pre {
+    background-color: var(--orange);
+    padding: 3rem 0.5rem;
+}
+
+p {
+    color: var(--white);
+}

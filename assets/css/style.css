@@ -52,6 +52,8 @@ pre {
     margin: 1rem;
     text-wrap: wrap;
     user-select: all;
+    display: block;
+    flex-grow: 1;
 }
 /* descriptions */
 p {

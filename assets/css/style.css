@@ -18,6 +18,8 @@ main {
 }
 
 section{
+    flex: 1 0 30%;
+    margin: 1rem 1rem;
     border: dashed var(--white);
     display:flex;
     flex-flow: column wrap;
@@ -33,8 +35,8 @@ h1 {
 h2 {
     color: var(--orange);
     border: solid var(--white);
-
     display: inline-flex;
+    margin-top: -20px;
 }
 
 h3 {
@@ -44,9 +46,14 @@ h3 {
 
 pre {
     background-color: var(--orange);
-    padding: 3rem 0.5rem;
+    padding: 3rem 1rem;
+    margin: 1rem;
+    text-wrap: wrap;
 }
 
 p {
+    text-wrap: wrap;
     color: var(--white);
+    padding: 0 1rem;
+    text-align: center;
 }

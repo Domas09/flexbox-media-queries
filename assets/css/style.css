@@ -1,6 +1,7 @@
 :root {
     --background:#403D39;
-    --orange:#EB5E28;
+    --orange:#eb5f28;
+    --orange-gradient:#eb5f2888;
     --white:#FFFCF2;
 }
 
@@ -45,7 +46,7 @@ h3 {
 }
 
 pre {
-    background-color: var(--orange);
+    background-image: linear-gradient(var(--orange-gradient), var(--orange));
     padding: 3rem 1rem;
     margin: 1rem;
     text-wrap: wrap;
@@ -57,3 +58,4 @@ p {
     padding: 0 1rem;
     text-align: center;
 }
+

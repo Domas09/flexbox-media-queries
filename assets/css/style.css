@@ -50,6 +50,7 @@ pre {
     padding: 3rem 1rem;
     margin: 1rem;
     text-wrap: wrap;
+    user-select: all;
 }
 
 p {
